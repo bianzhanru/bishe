@@ -10,3 +10,5 @@ venv/
 # 忽略可能的密钥文件
 .env
 config.ini (如果包含敏感密码)
+
+*.pcap
