@@ -1,4 +1,4 @@
-
+import os
 import json
 
 from openai import OpenAI
@@ -19,7 +19,7 @@ class DeepSeekAgent:
 
         self.client = OpenAI(
 
-            api_key="sk-397acb295df543b9a67ea0d42956233f",
+            api_key=os.getenv("DEEPSEEK_API_KEY"),
 
             base_url="https://api.deepseek.com" # DeepSeek 的官方接口地址
 
