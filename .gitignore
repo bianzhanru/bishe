@@ -1,0 +1,12 @@
+# 忽略日志和缓存
+*.log
+__pycache__/
+.pytest_cache/
+
+# 忽略大型二进制文件和环境
+venv/
+.venv/
+
+# 忽略可能的密钥文件
+.env
+config.ini (如果包含敏感密码)
